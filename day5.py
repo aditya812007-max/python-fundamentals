@@ -10,3 +10,9 @@ def get_int(prompt):
           pass
       
 main()      
+
+try:
+   x = int(input("enter a number"))
+
+except ValueError:
+    print("enter a number dumbfuck")
